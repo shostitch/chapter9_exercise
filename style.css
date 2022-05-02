@@ -5,6 +5,7 @@
 }
 
 header{
+  width:100%;
   background-color:#ff9a4b;
   height:50px;
 }
@@ -68,9 +69,6 @@ footer{
 }
 
 @media screen and (max-width:768px){
-  header{
-    width:100%;
-  }
 
   .box-contents{
     width:100%;
@@ -85,7 +83,7 @@ footer{
   .box-item:last-child{
     margin:0 auto;
   }
-  
+
   .box-item:nth-child(2){
     margin:20 auto;
   }
